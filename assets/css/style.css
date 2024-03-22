@@ -1,0 +1,215 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300..700;1,300..700&display=swap');
+
+body{
+	font-family: "Rosario", sans-serif;
+	overflow-x: hidden;
+
+}
+
+.banner-home {
+	position: relative;
+	padding: 20px;
+}
+.banner-home .img {
+	height: 700px;
+	background-position: bottom;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.space-one  h1 {
+	font-size: 40px;
+}
+.banner-home .space-one {
+	position: absolute;
+	top: 0px;
+	width: 472px;
+	height: 250px;
+	background: white;
+	border-bottom-right-radius: 25px;
+	padding: 30px;
+}
+
+.banner-home .space-two {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	display: flex;
+	padding: 20px;
+	background: white;
+	border-top-left-radius: 20px;
+
+}
+
+.banner-home .space-two .child-space.one {
+	width: 240px;
+	height: 198px;
+	background-color: #171C8F;
+	margin-right: 20px;
+	padding: 30px;
+	color: white;
+	border-radius: 25px;
+}
+
+.banner-home .space-two .child-space.two {
+	width: 240px;
+	height: 198px;
+	background-color: #DC8633;
+	padding: 30px;
+	color: white;
+	border-radius: 25px;
+}
+
+.banner-home-two {
+	padding: 20px;
+}
+
+.banner-home-two .img {
+	height: 540px;
+	border-radius: 20px;
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.position-relative {
+	position: relative;
+}
+.banner-home-two .position-relative .card {
+	position: absolute;
+	top: -130px;
+	background-color: #ffffffd9;
+	border-radius: 20px;
+}
+
+.banner-home-two .card-title {
+	font-size: 40px;
+}
+
+.btn-primary {
+	border-radius: 20px;
+	padding: 8px, 20px, 8px, 20px;
+	background-color: #171C8F;
+}
+
+.description-space h2 {
+	font-size: 40px;
+}
+
+.description-space p {
+	font-size: 24px;
+}
+
+.overview {
+	padding: 20px;
+}
+
+.overview .card-overview  {
+	background: #EBEBED;
+	padding: 20px;
+}
+
+.overview .card-overview  img {
+	width: 40px;
+}
+
+.overview .card-overview h2 {
+	font-size: 24px;
+}
+
+.overview .card-overview span {
+	font-size: 18px;
+}
+
+.title-desc {
+	font-size: 40px;
+}
+
+.badge-slider {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.badge-slider .badge {
+	padding: 20px;
+}
+
+.slider-upcoming .card {
+	padding: 120px 120px 120px 120px;
+}
+
+.slider-upcoming a {
+	padding-top: 40px;
+}
+
+.description-space h3{
+	font-weight: bold;
+}
+
+.description-space h2{
+	font-weight: bold;
+}
+
+.overview .card-contact  {
+	background: #EBEBED;
+	padding: 20px;
+	width: 245px;
+	height: 100%;
+}
+
+@media screen and (min-width: 1400px) {
+	.overview .card-contact  {
+		background: #EBEBED;
+		padding: 20px;
+		width: 290px;
+		height: 100%;
+	}
+ }
+
+.overview .card-contact  img {
+	width: 40px;
+}
+
+.overview .card-contact h2 {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.overview .card-contact span {
+	font-size: 18px;
+}
+
+.multiple-items .slick-prev {
+	left: 35px;
+}
+
+.multiple-items .slick-next {
+	right: 35px;
+}
+
+.multiple-items .slick-prev:before, .slick-next:before {
+	font-size: 30px !important;
+}
+
+.multiple-items .slick-list {
+	left: 9%;
+}
+
+.multiple-items .slick-list .slick-active .card-slick {
+	transform: scale(.9);
+	transition: transform .3s cubic-bezier(.4,0,.2,1);
+}
+
+.multiple-items .slick-list .slick-active .card-slick img {
+	height: 351px;
+}
+
+.multiple-items .slick-list .slick-active.slick-current .card-slick{
+	transform: scale(1);
+	
+}
+
+.multiple-items .slick-list .slick-active.slick-current .card-slick img {
+	height: 359px;
+}
