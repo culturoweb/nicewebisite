@@ -222,6 +222,10 @@
                 color: #fff;
                 background-color: #171C8F;
             }
+
+            .multiple-items .slick-current.slick-active {
+                margin-right: 27px;
+            }
         </style>
         <section class="Where-to-Stay mt-5">
             <div class="row justify-content-center">

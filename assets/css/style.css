@@ -210,6 +210,10 @@ body{
 	
 }
 
+.multiple-items .slick-list .slick-active.slick-current {
+	margin-right: 27px;
+}
+
 .multiple-items .slick-list .slick-active.slick-current .card-slick img {
 	height: 359px;
 }
