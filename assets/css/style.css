@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300..700;1,300..700&display=swap');
 
 body{
-	font-family: "Rosario", sans-serif;
 	overflow-x: hidden;
 
 }
@@ -210,10 +209,81 @@ body{
 	
 }
 
-.multiple-items .slick-list .slick-active.slick-current {
-	margin-right: 27px;
-}
-
 .multiple-items .slick-list .slick-active.slick-current .card-slick img {
 	height: 359px;
+}
+
+.Where-to-Stay {
+    background-color: #E3E4F2;
+    width: 100%;
+}
+
+.multiple-items {
+    display: flex;
+}
+
+.rating {
+    display: flex;
+    font-size: 20px;
+}
+
+.multiple-items .card {
+    text-align: left;
+}
+
+.checked {
+    color: orange;
+}
+
+.star {
+    margin-right: 10px;
+}
+
+.multiple-items .card .card-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.multiple-items .card .card-text {
+    font-size: 14px;
+    color: #6F6F6F;
+}
+
+.multiple-items .card a {
+    float: right;
+    color: #171C8F;
+}
+
+.multiple-items .card a:hover {
+    float: right;
+    color: #fff;
+    background-color: #171C8F;
+}
+.service-image {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.capacity {
+    display: flex;
+}
+
+.visi-misi .capacity h3 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Rosario", sans-serif;
+}
+
+.visi-misi .capacity p {
+    font-size: 16px;
+    font-family: "Rosario", sans-serif;
+}
+
+.benner-baru {
+    display: flex;
+}
+
+.benner-baru img {
+    width: 19%;
+    height: 100%;
 }

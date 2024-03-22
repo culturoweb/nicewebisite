@@ -10,17 +10,6 @@
                 </div>
             </div>
         </section>
-
-        <style>
-            .benner-baru {
-                display: flex;
-            }
-
-            .benner-baru img {
-                width: 19%;
-                height: 100%;
-            }
-        </style>
         <section class="visi-misi mt-5">
             <div class="container">
                 <div class="row">
@@ -38,20 +27,7 @@
         </section>
 
         <style>
-            .capacity {
-                display: flex;
-            }
-
-            .visi-misi .capacity h3 {
-                font-size: 24px;
-                font-weight: bold;
-                font-family: "Rosario", sans-serif;
-            }
-
-            .visi-misi .capacity p {
-                font-size: 16px;
-                font-family: "Rosario", sans-serif;
-            }
+            
         </style>
         <section class="visi-misi mt-5">
             <div class="container">
@@ -107,13 +83,6 @@
                 </div>
             </div>
         </section>
-
-        <style>
-            .service-image {
-                border-radius: 10px;
-                margin-bottom: 20px;
-            }
-        </style>
         <section class="text-about">
             <div class="container">
                 <div class="row">
@@ -174,59 +143,6 @@
                 </div>
             </div>
         </section>
-
-        <style>
-            .Where-to-Stay {
-                background-color: #E3E4F2;
-                width: 100%;
-            }
-
-            .multiple-items {
-                display: flex;
-            }
-
-            .rating {
-                display: flex;
-                font-size: 20px;
-            }
-
-            .multiple-items .card {
-                text-align: left;
-            }
-
-            .checked {
-                color: orange;
-            }
-
-            .star {
-                margin-right: 10px;
-            }
-
-            .multiple-items .card .card-title {
-                font-size: 20px;
-                font-weight: bold;
-            }
-
-            .multiple-items .card .card-text {
-                font-size: 14px;
-                color: #6F6F6F;
-            }
-
-            .multiple-items .card a {
-                float: right;
-                color: #171C8F;
-            }
-
-            .multiple-items .card a:hover {
-                float: right;
-                color: #fff;
-                background-color: #171C8F;
-            }
-
-            .multiple-items .slick-current.slick-active {
-                margin-right: 27px;
-            }
-        </style>
         <section class="Where-to-Stay mt-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 col-md-10 text-center description-space mt-5 mb-5">
