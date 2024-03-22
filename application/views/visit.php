@@ -87,58 +87,58 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
-                        <img src="<?php echo ASSETS . 'website/visit-2.jpeg' ?>" width="100%" class="image-fluid service-image">
+                        <img src="<?php echo ASSETS . 'website/visit-2.jpeg' ?>" class="img-fluid service-image">
                     </div>
                     <div class="col-md-3">
-                        <img src="<?php echo ASSETS . 'website/visit-3.jpeg' ?>" width="100%" class="image-fluid service-image">
+                        <img src="<?php echo ASSETS . 'website/visit-3.jpeg' ?>" class="img-fluid service-image">
                     </div>
                     <div class="col-md-3">
-                        <img src="<?php echo ASSETS . 'website/visit-4.jpeg' ?>" width="100%" class="image-fluid service-image">
+                        <img src="<?php echo ASSETS . 'website/visit-4.jpeg' ?>" class="img-fluid service-image">
                     </div>
                     <div class="col-md-3">
-                        <img src="<?php echo ASSETS . 'website/visit-5.jpeg' ?>" width="100%" class="image-fluid service-image">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="<?php echo ASSETS . 'website/visit-6.jpeg' ?>" width="100%" class="image-fluid service-image">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="<?php echo ASSETS . 'website/visit-7.jpeg' ?>" width="100%" class="image-fluid service-image">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="<?php echo ASSETS . 'website/visit-8.jpeg' ?>" width="100%" class="image-fluid service-image">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="<?php echo ASSETS . 'website/visit-9.jpeg' ?>" width="100%" class="image-fluid service-image">
+                        <img src="<?php echo ASSETS . 'website/visit-5.jpeg' ?>" class="img-fluid service-image">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-3">
-                        <img src="<?php echo ASSETS . 'website/visit-2.jpeg' ?>" width="100%" class="image-fluid service-image">
+                        <img src="<?php echo ASSETS . 'website/visit-6.jpeg' ?>" class="img-fluid service-image">
                     </div>
                     <div class="col-md-3">
-                        <img src="<?php echo ASSETS . 'website/visit-3.jpeg' ?>" width="100%" class="image-fluid service-image">
+                        <img src="<?php echo ASSETS . 'website/visit-7.jpeg' ?>" class="img-fluid service-image">
                     </div>
                     <div class="col-md-3">
-                        <img src="<?php echo ASSETS . 'website/visit-4.jpeg' ?>" width="100%" class="image-fluid service-image">
+                        <img src="<?php echo ASSETS . 'website/visit-8.jpeg' ?>" class="img-fluid service-image">
                     </div>
                     <div class="col-md-3">
-                        <img src="<?php echo ASSETS . 'website/visit-5.jpeg' ?>" width="100%" class="image-fluid service-image">
+                        <img src="<?php echo ASSETS . 'website/visit-9.jpeg' ?>" class="img-fluid service-image">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-3">
-                        <img src="<?php echo ASSETS . 'website/visit-6.jpeg' ?>" width="100%" class="image-fluid service-image">
+                        <img src="<?php echo ASSETS . 'website/visit-2.jpeg' ?>" class="img-fluid service-image">
                     </div>
                     <div class="col-md-3">
-                        <img src="<?php echo ASSETS . 'website/visit-7.jpeg' ?>" width="100%" class="image-fluid service-image">
+                        <img src="<?php echo ASSETS . 'website/visit-3.jpeg' ?>" class="img-fluid service-image">
                     </div>
                     <div class="col-md-3">
-                        <img src="<?php echo ASSETS . 'website/visit-8.jpeg' ?>" width="100%" class="image-fluid service-image">
+                        <img src="<?php echo ASSETS . 'website/visit-4.jpeg' ?>" class="img-fluid service-image">
                     </div>
                     <div class="col-md-3">
-                        <img src="<?php echo ASSETS . 'website/visit-9.jpeg' ?>" width="100%" class="image-fluid service-image">
+                        <img src="<?php echo ASSETS . 'website/visit-5.jpeg' ?>" class="img-fluid service-image">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="<?php echo ASSETS . 'website/visit-6.jpeg' ?>" class="img-fluid service-image">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="<?php echo ASSETS . 'website/visit-7.jpeg' ?>" class="img-fluid service-image">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="<?php echo ASSETS . 'website/visit-8.jpeg' ?>" class="img-fluid service-image">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="<?php echo ASSETS . 'website/visit-9.jpeg' ?>" class="img-fluid service-image">
                     </div>
                 </div>
             </div>
