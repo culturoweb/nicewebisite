@@ -46,4 +46,10 @@ class OurVanue extends CI_Controller
         $this->load->view('exhibition-center');
         $this->load->view('global/footer');
     }
+    public function VirtualTour()
+    {
+        $this->load->view('global/header');
+        $this->load->view('virtual-tour');
+        $this->load->view('global/footer');
+    }
 }

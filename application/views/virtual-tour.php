@@ -1,194 +1,29 @@
 <main>
-
-    <img src="<?php echo ASSETS . 'website/semi-outdoor.jpeg' ?>" width="100%" class="img-fluid">
-
-    <div class="container">
-        <section class="text-about mt-5 ">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 text-center description-space">
-                        <h2>Semi Outdoor Exhibition Area</h2>
-                        <p>Nusantara International Convention Exhibition (NICE) offers a spacious outdoor exhibition space that is perfect for hosting outdoor events such as fairs, concerts, and festivals. Our outdoor exhibition space is designed to accommodate large crowds and can be customized to meet the specific needs of any kind of event. With ample space and a stunning view of the surrounding area, our outdoor exhibition space is the ideal location for creating a memorable event experiences.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-
-    <section class="table mt-5 ">
+    <section class="text-about mt-5 ">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-md-12 description-space">
-                    <h2>Technical Specification</h2>
-                    <style>
-                        table {
-                            border-color: white;
-                            width: 100%;
-                        }
-
-                        .atas th div {
-                            background-color: rgba(23, 28, 143, 0.1);
-                            color: #171C8F;
-                            border-radius: 25px;
-                            border: 2px solid rgba(23, 28, 143, 0.1);
-                            padding: 10px 30px 10px 30px;
-                            font-size: 20px;
-                        }
-
-                        table td div {
-                            background-color: white;
-                            color: black;
-                            border-radius: 20px;
-                            border-color: red;
-                            border: 2px solid rgba(23, 28, 143, 0.1);
-                            padding: 10px 30px 10px 30px;
-                            font-size: 20px;
-                        }
-
-                        table tr th .large {
-                            padding: 34px 30px 34px 30px;
-                        }
-                    </style>
-                    <table>
-                        <tr class="text-center atas">
-                            <th rowspan="2">
-                                <div class="large">Room Name</div>
-                            </th>
-                            <th rowspan="2">
-                                <div class="large">Meters(LxW)</div>
-                            </th>
-                            <th rowspan="2">
-                                <div class="large">Sqm</div>
-                            </th>
-                            <th rowspan="2">
-                                <div class="large">Feet(LxW)</div>
-                            </th>
-                            <th rowspan="2">
-                                <div class="large">Sqf</div>
-                            </th>
-                            <th colspan="3">
-                                <div>Capacity</div>
-                            </th>
-                        </tr>
-                        <tr class="text-center atas">
-                            <th>
-                                <div>Banquet</div>
-                            </th>
-                            <th>
-                                <div>Classroom</div>
-                            </th>
-                            <th>
-                                <div>Theatre</div>
-                            </th>
-                        </tr>
-                        <tr class="text-center">
-                            <td>
-                                <div>Outdoor Area</div>
-                            </td>
-                            <td>
-                                <div>-</div>
-                            </td>
-                            <td>
-                                <div>13.594 sqm</div>
-                            </td>
-                            <td>
-                                <div>-</div>
-                            </td>
-                            <td>
-                                <div>-</div>
-                            </td>
-                            <td>
-                                <div>-</div>
-                            </td>
-                            <td>
-                                <div>-</div>
-                            </td>
-                            <td>
-                                <div>-</div>
-                            </td>
-                        </tr>
-
-                    </table>
+                <div class="col-lg-12 col-md-12 text-center description-space">
+                    <h2>Explore Nusantara International Convention Exhibition Virtually</h2>
+                    <p>Navigate the space virtually, familiarizing yourself with the layout, flow, and access points. This insider knowledge will save you time and ensure your event runs smoothly from the first setup to the final farewell.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="table mt-5 ">
+    <section class="virtual-tour">
         <div class="container">
-            <div class="row description-space">
-                <h2>Room Priview</h2>
-                <div class="metting-img">
-                    <img src="<?php echo ASSETS . 'website/outdoor-2.jpeg' ?>" class="img-fluid" width="50%">
-                    <img src="<?php echo ASSETS . 'website/vm-1.jpeg' ?>" class="img-fluid" width="50%">
-                    <img src="<?php echo ASSETS . 'website/vm-2.jpeg' ?>" class="img-fluid" width="50%">
-                    <img src="<?php echo ASSETS . 'website/vm-3.jpeg' ?>" class="img-fluid" width="50%">
-                    <img src="<?php echo ASSETS . 'website/vm-4.jpeg' ?>" class="img-fluid" width="50%">
-                    <img src="<?php echo ASSETS . 'website/vm-5.jpeg' ?>" class="img-fluid" width="50%">
+            <div class="row">
+                <div class="col-md-6 rounded float-end text-center description-space">
+                    <img src="<?php echo ASSETS . 'website/vt-2.jpg' ?>" alt="" width="50%" class="img-fluid">
+                    <img src="<?php echo ASSETS . 'website/vt-3.jpg' ?>" alt="" width="50%" class="img-fluid">
+                    <img src="<?php echo ASSETS . 'website/vt-4.jpg' ?>" alt="" width="50%" class="img-fluid">
+                </div>
+                <div class="col-md-6 rounded float-end text-center description-space">
+                    <img src="<?php echo ASSETS . 'website/vt-1.jpg' ?>" alt="" width="100%" class="img-fluid rounded float-start">
                 </div>
             </div>
         </div>
     </section>
-    </div>
-
-    <style>
-        .buttom-event {
-
-            background-color: #E3E4F2;
-
-            width: 100%;
-
-        }
-
-
-
-        .buttom-event .btn-danger {
-
-            background-color: #171C8F;
-
-            color: #E3E4F2;
-
-            border-color: #171C8F;
-
-            width: 20%;
-
-        }
-
-
-
-        .buttom-event .btn-danger a:hover {
-
-            background-color: #171C8F;
-
-            color: #E3E4F2;
-
-        }
-    </style>
-    <section class="buttom-event mt-5 ">
-
-        <div class="container">
-
-            <div class="row text-center justify-content-center">
-
-                <h2 class="mt-5 mb-5" style="font-weight: bold;">Ready to transform your dream event with us? </h2>
-
-                <h4 class="mb-5">At Nusantara International Convention Exhibition, your event dreams take flight. Whether you're envisioning an intimate gathering or a grand spectacle, we'll work with you to bring your vision to life in every detail.</h4>
-
-                <a href="" class="btn btn-danger mb-5">Plan Your Event Now</a>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-
-
-
-
-
-
 
     <style>
         footer {

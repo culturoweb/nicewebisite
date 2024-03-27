@@ -18,35 +18,94 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 description-space">
                         <h2>Technical Specification</h2>
-                        <table border="1">
-                            <tr>
-                                <th rowspan="2" bgcolor="yellow">Bulan</th>
-                                <th colspan="2" bgcolor="#00ff80">Hasil Panen</th>
+                        <style>
+                            table {
+                                border-color: white;
+                                width: 100%;
+                            }
+
+                            .atas th div {
+                                background-color: rgba(23, 28, 143, 0.1);
+                                color: #171C8F;
+                                border-radius: 25px;
+                                border: 2px solid rgba(23, 28, 143, 0.1);
+                                padding: 10px 30px 10px 30px;
+                                font-size: 20px;
+                            }
+
+                            table td div {
+                                background-color: white;
+                                color: black;
+                                border-radius: 20px;
+                                border-color: red;
+                                border: 2px solid rgba(23, 28, 143, 0.1);
+                                padding: 10px 30px 10px 30px;
+                                font-size: 20px;
+                            }
+
+                            table tr th .large {
+                                padding: 34px 30px 34px 30px;
+                            }
+                        </style>
+                        <table>
+                            <tr class="text-center atas">
+                                <th rowspan="2">
+                                    <div class="large">Room Name</div>
+                                </th>
+                                <th rowspan="2">
+                                    <div class="large">Meters(LxW)</div>
+                                </th>
+                                <th rowspan="2">
+                                    <div class="large">Sqm</div>
+                                </th>
+                                <th rowspan="2">
+                                    <div class="large">Feet(LxW)</div>
+                                </th>
+                                <th rowspan="2">
+                                    <div class="large">Sqf</div>
+                                </th>
+                                <th colspan="3">
+                                    <div>Capacity</div>
+                                </th>
                             </tr>
-                            <tr>
-                                <th>Padi</th>
-                                <th>Kacang</th>
+                            <tr class="text-center atas">
+                                <th>
+                                    <div>Banquet</div>
+                                </th>
+                                <th>
+                                    <div>Classroom</div>
+                                </th>
+                                <th>
+                                    <div>Theatre</div>
+                                </th>
                             </tr>
-                            <tr>
-                                <td>Januari</td>
-                                <td>500 Kg</td>
-                                <td>231 Kg</td>
+                            <tr class="text-center">
+                                <td>
+                                    <div>Meeting Room</div>
+                                </td>
+                                <td>
+                                    <div>-</div>
+                                </td>
+                                <td>
+                                    <div>-</div>
+                                </td>
+                                <td>
+                                    <div>-</div>
+                                </td>
+                                <td>
+                                    <div>-</div>
+                                </td>
+                                <td>
+                                    <div>-</div>
+                                </td>
+                                <td>
+                                    <div>-</div>
+                                </td>
+                                <td>
+                                    <div>-</div>
+                                </td>
                             </tr>
-                            <tr>
-                                <td>Februari</td>
-                                <td>342 Kg</td>
-                                <td>423 Kg</td>
-                            </tr>
-                            <tr>
-                                <td>Maret</td>
-                                <td>432 Kg</td>
-                                <td>124 Kg</td>
-                            </tr>
-                            <tr>
-                                <td>April</td>
-                                <td>453 Kg</td>
-                                <td>523 Kg</td>
-                            </tr>
+
                         </table>
                     </div>
                 </div>

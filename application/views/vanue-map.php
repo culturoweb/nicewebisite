@@ -47,23 +47,316 @@
                     </select>
                 </div>
             </div>
+            <style>
+                .card-body {
+                    background-color: #171C8F;
+                    color: #E3E4F2;
+                    position: absolute;
+                    width: 100%;
+                    border-radius: 25px;
+                    top: 160px;
+                }
 
+                .card {
+                    margin-bottom: 350px;
+                }
+
+                .card-title {
+                    font-weight: bold;
+                }
+
+                .button-card {
+                    color: #171C8F;
+                    background-color: #fff;
+                    border-color: #E3E4F2;
+                    border-radius: 10px;
+                    font-weight: 500;
+                }
+
+                .list-group-item {
+                    position: relative;
+                    display: block;
+                    padding: .5rem 0rem;
+                    color: #fff;
+                    text-decoration: none;
+                    background-color: #171C8F;
+                    border: 5px solid #fff;
+                    font-weight: 500;
+                }
+
+                .btn-primary:hover {
+                    color: #171C8F;
+                    background-color: #fff;
+                    border-color: #fff;
+                }
+            </style>
             <div class="row">
                 <div class="col-md-4 mb-3">
                     <div class="card">
                         <img src="<?php echo ASSETS . 'website/vm-1.jpeg' ?>" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Exhibition Halls 1-2</h5>
+                        <div class="body-card">
+                            <div class="card-body">
+                                <h4 class="card-title">Exhibition Halls 1-2</h4>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Size</p>
+                                            <p>5200 sqm</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Banquet</p>
+                                            <p>3080 seats</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Classroom</p>
+                                            <p>4224 seats</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Concert</p>
+                                            <p>1080 seats</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Exhibition</p>
+                                            <p>300-400 booths</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Sport Area</p>
+                                            <p>7400 seats</p>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                                <button type="button" class="btn btn-primary button-card" data-mdb-ripple-init>See More</button>
+                            </div>
+
                         </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Size</li>
-                            <li class="list-group-item">Banquet</li>
-                            <li class="list-group-item">Classroom</li>
-                            <li class="list-group-item">Concert</li>
-                            <li class="list-group-item">Exhibition</li>
-                            <li class="list-group-item">Sport Area</li>
-                        </ul>
-                        <button type="button" class="btn btn-danger" data-mdb-ripple-init>Button</button>
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="<?php echo ASSETS . 'website/vm-2.jpeg' ?>" class="card-img-top">
+                        <div class="body-card">
+                            <div class="card-body">
+                                <h4 class="card-title">Exhibition Halls 3</h4>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Size</p>
+                                            <p>5200 sqm</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Banquet</p>
+                                            <p>3080 seats</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Classroom</p>
+                                            <p>4224 seats</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Concert</p>
+                                            <p>1080 seats</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Exhibition</p>
+                                            <p>300-400 booths</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Sport Area</p>
+                                            <p>7400 seats</p>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                                <button type="button" class="btn btn-primary button-card" data-mdb-ripple-init>See More</button>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="<?php echo ASSETS . 'website/vm-3.jpeg' ?>" class="card-img-top">
+                        <div class="body-card">
+                            <div class="card-body">
+                                <h4 class="card-title">Sriwijaya Grand Ballrom</h4>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Size</p>
+                                            <p>5200 sqm</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Banquet</p>
+                                            <p>3080 seats</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Classroom</p>
+                                            <p>4224 seats</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Concert</p>
+                                            <p>1080 seats</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Exhibition</p>
+                                            <p>300-400 booths</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Sport Area</p>
+                                            <p>7400 seats</p>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                                <button type="button" class="btn btn-primary button-card" data-mdb-ripple-init>See More</button>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="<?php echo ASSETS . 'website/vm-4.jpeg' ?>" class="card-img-top">
+                        <div class="body-card">
+                            <div class="card-body">
+                                <h4 class="card-title">Majapahit Ballroom</h4>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Size</p>
+                                            <p>5200 sqm</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Banquet</p>
+                                            <p>3080 seats</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Classroom</p>
+                                            <p>4224 seats</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Concert</p>
+                                            <p>1080 seats</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Exhibition</p>
+                                            <p>300-400 booths</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Sport Area</p>
+                                            <p>7400 seats</p>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                                <button type="button" class="btn btn-primary button-card" data-mdb-ripple-init>See More</button>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="<?php echo ASSETS . 'website/vm-5.jpeg' ?>" class="card-img-top">
+                        <div class="body-card">
+                            <div class="card-body">
+                                <h4 class="card-title">Meeting Room 1-47</h4>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Size</p>
+                                            <p>5200 sqm</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Banquet</p>
+                                            <p>3080 seats</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Classroom</p>
+                                            <p>4224 seats</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Concert</p>
+                                            <p>1080 seats</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Exhibition</p>
+                                            <p>300-400 booths</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="d-flex justify-content-between">
+                                            <p>Sport Area</p>
+                                            <p>7400 seats</p>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                                <button type="button" class="btn btn-primary button-card" data-mdb-ripple-init>See More</button>
+                            </div>
+
+                        </div>
+
 
                     </div>
                 </div>

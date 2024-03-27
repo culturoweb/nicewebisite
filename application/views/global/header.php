@@ -49,11 +49,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="<?php echo BASEURL . 'OurVanue/ExhibitionCenter' ?>">Exhibition Center</a></li>
-                            <li><a class="dropdown-item" href="<?php echo BASEURL . 'OurVanue/ExhibitionCenter' ?>">Convention Building</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASEURL . 'OurVanue/ConventionBuilding' ?>">Convention Building</a></li>
                             <li><a class="dropdown-item" href="<?php echo BASEURL . 'OurVanue/MeetingRoom' ?>">Meeting Room</a></li>
                             <li><a class="dropdown-item" href="<?php echo BASEURL . 'OurVanue/semioutdoor' ?>">Semi Outdoor Exhibition Area</a></li>
-                            <li><a class="dropdown-item" href="<?php echo BASEURL . 'OurVanue/ExhibitionCenter' ?>">Venue Map</a></li>
-                            <li><a class="dropdown-item" href="<?php echo BASEURL . 'OurVanue/ExhibitionCenter' ?>">Virtual Tour</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASEURL . 'OurVanue/vanuemap' ?>">Venue Map</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASEURL . 'OurVanue/VirtualTour' ?>">Virtual Tour</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
