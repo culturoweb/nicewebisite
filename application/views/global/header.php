@@ -15,6 +15,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <link rel="stylesheet" type="text/css" href="<?php echo CSS . 'style.css' ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo CSS . 'slick/slick.css' ?> " />
     <link rel="stylesheet" type="text/css" href="<?php echo CSS . 'slick/slick-theme.css' ?> " />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="googlebot" content="noindex">
+    <meta name="googlebot-news" content="nosnippet">
 
     <link rel="stylesheet" href="https://unpkg.com/flexmasonry/dist/flexmasonry.css">
     <title>Nice</title>

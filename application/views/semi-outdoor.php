@@ -13,6 +13,84 @@
                 </div>
             </div>
         </section>
+<<<<<<< Updated upstream
+=======
+        <style>
+            table {
+                border-color: white;
+                width: 100%;
+            }
+
+            .tabble-semi th .bord-semi {
+                background-color: #698EB4;
+                color: #171C8F;
+                border-radius: 25px;
+                border: 2px solid black;
+                height: 100px;
+                display: grid;
+            }
+
+            .tabble-semi th .bord-semi p {
+                margin-top: auto;
+                margin-bottom: auto;
+                text-align: center;
+            }
+
+            table td {
+                background-color: azure;
+                color: #171C8F;
+                border-radius: 20px;
+                border-color: red;
+                padding: 10px 30px 10px 30px;
+            }
+        </style>
+        <table border="1" class="tabble-semi">
+            <tr class="text-center atas">
+                <th rowspan="2">
+                    <div class="bord-semi"><p>Room Name</p></div>
+                </th>
+                <th rowspan="2">
+                    <div class="bord-semi">Meters(LxW)</div>
+                </th>
+                <th rowspan="2">
+                    <div class="bord-semi">Sqm</div>
+                </th>
+                <th rowspan="2">
+                    <div class="bord-semi">Feet(LxW)</div>
+                </th>
+                <th rowspan="2">
+                    <div class="bord-semi">Sqf</div>
+                </th>
+                <th colspan="3">
+                    <div class="bord-semi">Capacity</div>
+                </th>
+            </tr>
+            <tr class="text-center">
+                <th>
+                    <div class="bord-semi">Banquet</div>
+                </th>
+                <th>
+                    <div class="bord-semi">Classroom</div>
+                </th>
+                <th>
+                    <div class="bord-semi">Theatre</div>
+                </th>
+            </tr>
+            <tr class="text-center">
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+
+        </table>
+    </div>
+    </div>
+>>>>>>> Stashed changes
     </div>
 
     <section class="table mt-5 ">
