@@ -3,7 +3,7 @@
 
 body{
 	overflow-x: hidden;
-
+	font-family: "Rosario", sans-serif;
 }
 
 .banner-home {
@@ -89,7 +89,13 @@ body{
 	border-radius: 20px;
 	padding: 8px, 20px, 8px, 20px;
 	background-color: #171C8F;
+	border-color: #171C8F;
 }
+
+.btn-primary:hover {
+	background-color: #171C8F;
+}
+
 
 .description-space h2 {
 	font-size: 40px;
