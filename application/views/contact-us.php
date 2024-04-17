@@ -48,7 +48,7 @@
                                     <div class="card card-contact">
                                         <img src="<?php echo ASSETS . 'website/1.jpeg' ?>" class="image-fluid mb-3">
                                         <h2 class="card-title">Address</h2>
-                                        <span>Jl. KH Mas Mansyur PIK 2, Salembaran, Kec. Kosambi, Kabupaten Tangerang, Banten 15214</span>
+                                        <span>Jl. M.H. Thamrin, Pantai Indah Kapuk 2, Salembaran, Kec. Kosambi, Kabupaten Tangerang, Banten 15214</span>
                                     </div>
                                 </div>
                                 <div class="col">
@@ -210,7 +210,7 @@
                                         Address
                                     </h6>
                                     <p>
-                                        Jl. KH Mas Mansyur PIK 2, Salembaran, Kec. Kosambi, Kabupaten Tangerang, Banten 15214
+                                    Jl. M.H. Thamrin, Pantai Indah Kapuk 2, Salembaran, Kec. Kosambi, Kabupaten Tangerang, Banten 15214
                                     </p>
 
                                     <h6 class="text-uppercase fw-bold">

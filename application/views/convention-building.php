@@ -762,7 +762,7 @@
 
                             <p>
 
-                                Jl. KH Mas Mansyur PIK 2, Salembaran, Kec. Kosambi, Kabupaten Tangerang, Banten 15214
+                            Jl. M.H. Thamrin, Pantai Indah Kapuk 2, Salembaran, Kec. Kosambi, Kabupaten Tangerang, Banten 15214
 
                             </p>
 

@@ -56,7 +56,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             <li><a class="dropdown-item" href="<?php echo BASEURL . 'OurVanue/MeetingRoom' ?>">Meeting Room</a></li>
                             <li><a class="dropdown-item" href="<?php echo BASEURL . 'OurVanue/semioutdoor' ?>">Semi Outdoor Exhibition Area</a></li>
                             <li><a class="dropdown-item" href="<?php echo BASEURL . 'OurVanue/vanuemap' ?>">Venue Map</a></li>
-                            <li><a class="dropdown-item" href="<?php echo BASEURL . 'OurVanue/VirtualTour' ?>">Virtual Tour</a></li>
+                            <li><a class="dropdown-item" href="#">Virtual Tour</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
