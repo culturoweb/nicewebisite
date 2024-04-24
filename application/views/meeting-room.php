@@ -117,11 +117,18 @@
                 <div class="row description-space">
                     <h2>Room Priview</h2>
                     <div class="metting-img">
-                        <img src="<?php echo ASSETS . 'website/vm-1.jpeg' ?>" class="img-fluid" width="50%">
-                        <img src="<?php echo ASSETS . 'website/vm-2.jpeg' ?>" class="img-fluid" width="50%">
-                        <img src="<?php echo ASSETS . 'website/vm-3.jpeg' ?>" class="img-fluid" width="50%">
-                        <img src="<?php echo ASSETS . 'website/vm-4.jpeg' ?>" class="img-fluid" width="50%">
-                        <img src="<?php echo ASSETS . 'website/vm-5.jpeg' ?>" class="img-fluid" width="50%">
+                        <img src="<?php echo ASSETS . 'website/mr/1.jpg' ?>" class="img-fluid">
+                        <img src="<?php echo ASSETS . 'website/mr/2.jpg' ?>" class="img-fluid">
+                        <img src="<?php echo ASSETS . 'website/mr/3.jpg' ?>" class="img-fluid">
+                        <img src="<?php echo ASSETS . 'website/mr/4.jpg' ?>" class="img-fluid">
+                        <img src="<?php echo ASSETS . 'website/mr/5.jpg' ?>" class="img-fluid">
+                        <img src="<?php echo ASSETS . 'website/mr/6.jpg' ?>" class="img-fluid">
+                        <img src="<?php echo ASSETS . 'website/mr/7.jpg' ?>" class="img-fluid">
+                        <img src="<?php echo ASSETS . 'website/mr/8.jpg' ?>" class="img-fluid">
+                        <img src="<?php echo ASSETS . 'website/mr/9.jpg' ?>" class="img-fluid">
+                        <img src="<?php echo ASSETS . 'website/mr/10.jpg' ?>" class="img-fluid">
+                        <img src="<?php echo ASSETS . 'website/mr/11.jpg' ?>" class="img-fluid">
+                        <img src="<?php echo ASSETS . 'website/mr/12.jpg' ?>" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -427,7 +434,7 @@
 
                             <p>
 
-                            Jl. M.H. Thamrin, Pantai Indah Kapuk 2, Salembaran, Kec. Kosambi, Kabupaten Tangerang, Banten 15214
+                                Jl. M.H. Thamrin, Pantai Indah Kapuk 2, Salembaran, Kec. Kosambi, Kabupaten Tangerang, Banten 15214
 
                             </p>
 
