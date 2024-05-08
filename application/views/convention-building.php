@@ -168,7 +168,7 @@
             .tab-content .nav-pills .nav-link.active {
                 width: 100%;
                 background: unset;
-                border-bottom: 7px solid #171C8F;
+                border-bottom: 7px solid black;
             }
 
             .tab-content .nav-pills .nav-link.active .icon-svg path {
@@ -762,7 +762,7 @@
 
                             <p>
 
-                            Jl. M.H. Thamrin, Pantai Indah Kapuk 2, Salembaran, Kec. Kosambi, Kabupaten Tangerang, Banten 15214
+                                Jl. M.H. Thamrin, Pantai Indah Kapuk 2, Salembaran, Kec. Kosambi, Kabupaten Tangerang, Banten 15214
 
                             </p>
 
